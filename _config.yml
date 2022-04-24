@@ -1,6 +1,6 @@
 # Setup
-title: Dark Poole
-url: https://getpoole.com
+title: Brazilians in DS ML
+url: https://brazilians-in-ds-ml.github.io/
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -31,18 +31,18 @@ sass:
 # ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
-author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+#author:
+#  name: Mark Otto
+#  url: https://twitter.com/mdo
+#  email: markdotto@gmail.com
 
 # Custom vars
 version: 3.0.0
 
-# Navbar page list
-nav:
-  - title: Blog
-    url: /archive
-
-  - title: About
-    url: /about
+## Navbar page list
+#nav:
+#  - title: Blog
+#    url: /archive
+#
+#  - title: About
+#    url: /about
