@@ -3,31 +3,43 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+Estudantes brasileiras(os) que querem fazer a pós-graduação no exterior enfrentam desafios que incluem:
+taxas de inscrição caras,
+falta de compreensão de como funcionam as inscrições para pós-graduação, e
+orientação insuficiente para se inscrever em programas de pós-graduação competitivos.
 
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
+Para piorar as coisas, esses desafios afetam desproporcionalmente minorias e estudantes de baixa renda.
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<br/><br/>
+
+<h2>Conectando estudantes com mentores</h2>
+Esse projeto tenta ligar alunas(os) de graduação/mestrado no Brasil com mentores com experiência de pesquisa no exterior.
+
+<br/><br/>
+<b>Se você é uma aluna(o) de graduação/mestrado:</b>
+
+<ol>
+<li>
+Preencha este formulário.
+</li>
+<li>
+Você então vai receber um e-mail com acesso a uma lista de mentores que se dispuseram a ajudar!
+</li>
+<li>
+Contate 1 ou 2 desses mentores!
+</li>
+</ol>
+
+<b>Se você é quer ser um mentor</b>
+<ol>
+<li>
+Preencha este formulário.
+</li>
+<li>
+Você então vai receber um e-mail com acesso a uma lista de alunas(os) que precisam de ajuda.
+</li>
+<li>
+Contate os alunas(os) diretamente ou espere que eles o façam.
+</li>
+</ol>

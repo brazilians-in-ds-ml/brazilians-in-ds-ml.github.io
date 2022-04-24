@@ -1,5 +1,5 @@
 # Setup
-title: Brazilians in DS ML
+title: Brazilians in Data Science and Machine Learning
 url: https://brazilians-in-ds-ml.github.io/
 paginate: 1
 baseurl: ""
@@ -39,10 +39,9 @@ sass:
 # Custom vars
 version: 3.0.0
 
-## Navbar page list
+# Navbar page list
 #nav:
 #  - title: Blog
 #    url: /archive
-#
 #  - title: About
 #    url: /about
